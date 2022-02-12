@@ -1,0 +1,189 @@
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+section {
+    padding: 0px 30px;
+}
+
+h3 {
+    padding-top: 60px;
+    padding-bottom: 30px;
+    font-family: "Fredoka One", Tahoma, sans-serif;
+    font-size: 48px;
+    text-align: center;
+}
+
+/* Header Styling */
+h1 {
+    text-align: center;
+    color:#11222C;
+    font-family: "Fredoka One", Tahoma, sans-serif;
+    font-size: 72px;
+    text-shadow: 1px 1px white;
+}
+
+h2 {
+    text-align: center;
+    font-size: 60px;
+    color:#F69000;
+    font-family: "Fredoka One", Tahoma, sans-serif;
+    text-shadow: 1px 1px gray;
+}
+
+header {
+    background-color: rgba(83, 177, 177, 1);
+    padding: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 72px;
+    }
+}
+
+/* Colors */
+#color-section {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.colors {
+    max-height: 200px;
+    max-width: 200px;
+    border-radius: 15px;
+}
+
+.colors p {
+   font-family: "Raleway", Verdana, sans-serif;
+   font-size: 20px;
+   color: white;
+   padding: 15px;
+   margin-top: 15px;
+}
+#yellow {
+    background-color: #F6C624;
+}
+
+#teal {
+    background-color: #53B1B1;
+}
+
+#orange {
+    background-color: #F69000;
+}
+
+#dark-teal {
+    background-color: #1C5858;   
+}
+
+#navy {
+    background-color: #11222C;
+}
+
+@media only screen and (max-width: 600px) {
+    #color-section {
+        display: block;
+    }
+}
+
+/* Fonts Section */
+.style-heading {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.fredoka {
+    font-family: "Fredoka One", Tahoma, sans-serif;
+}
+
+.raleway {
+    font-family: "Raleway", Verdana, sans-serif;
+}
+
+.fonts {
+    padding: 10px 50px;
+    line-height: 1.5;
+    color: #11222C;
+}
+
+.fonts h4 {
+    font-size: 32px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+/* Text Styles */
+.text-style p {
+    font-family: "Raleway", Verdana, sans-serif;
+    text-align: center;
+}
+
+.quote-style {
+    font-family: "Raleway", Verdana, sans-serif;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.text-style h4 {
+    font-family: "Fredoka One", Tahoma, sans-serif;
+    font-size: 32px;
+}
+
+/* Buttons */
+#button-style {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+#primary-button {
+    padding: 20px;
+    font-family: "Fredoka One", Verdana, sans-serif;
+    font-size: 24px;
+    border-radius: 15px;
+    background-color:#F69000;
+    color: #11222C;
+}
+
+#primary-button:hover {
+    padding: 22px;
+    background-color:#53B1B1;
+}
+
+#secondary-button {
+    padding: 20px;
+    font-family: "Fredoka One", Verdana, sans-serif;
+    font-size: 24px;
+    border-radius: 15px;
+    background-color:#11222C;
+    color:#F6C624;
+}
+
+#secondary-button:hover {
+    background-color:#1C5858;
+    padding: 22px;
+}
+
+/* Footer */
+
+footer {
+    background-color:#11222C;
+    padding: 50px;
+    margin-top: 50px;
+}
+
+footer p {
+    color: #F69000;
+    font-family: "Raleway", Verdana, sans-serif;
+    font-size: 24px;
+    opacity: 0.9;
+    text-align: center;
+}
